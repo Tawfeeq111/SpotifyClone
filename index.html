@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="./images/logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h3>Best of NCS - No Copy Right</h3>
+            <div class="songItem">
+                <img id="move" src="./images/10.jpg" alt="">
+                <span>True Love</span>
+                <span id="11">5:02 <i class="fa-regular play-pause fa-circle-play" id="1"></i></span>
+            </div>
+            <div class="songItem">
+                <img id="move2" src="./images/2.jpg" alt="">
+                <span>Trap</span>
+                <span id="12">5:02 <i class="fa-regular play-pause fa-circle-play" id="2"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="./images/3.jpg" alt="">
+                <span>They Mad</span>
+                <span id="13">5:02 <i class="fa-regular play-pause fa-circle-play" id="3"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="./images/4.jpg" alt="">
+                <span>Rick the Kid</span>
+                <span id="14">5:02 <i class="fa-regular play-pause fa-circle-play" id="4"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="./images/5.jpg" alt="">
+                <span>Song Title</span>
+                <span id="15">5:02 <i class="fa-regular play-pause fa-circle-play" id="5"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="./images/6.jpg" alt="">
+                <span>Safety Dance</span>
+                <span id="16">5:02 <i class="fa-regular play-pause fa-circle-play" id="6"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="./images/7.jpg" alt="">
+                <span>Back it up</span>
+                <span id="17">5:02 <i class="fa-regular play-pause fa-circle-play" id="7"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="./images/9.jpg" alt="">
+                <span>Bella Dance</span>
+                <span id="18">5:02 <i class="fa-regular play-pause fa-circle-play" id="8"></i></span>
+            </div>           
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="range" value="0" min="0" max="100">
+        <div class="i">
+            <i class="fa-solid fa-2x fa-backward-step" id="prev"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="play"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./images/playing.gif" alt="#" id="giif"> <span id="songName1"> True Love</span>  
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
